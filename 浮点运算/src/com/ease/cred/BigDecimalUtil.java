@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 /**
  * float和double只能用来做科学计算或者是工程计算，在商业计算中我们要用java.math.BigDecimal。使用BigDecimal并且一定要用String来够造
  * BigDecimal其中一个构造函数以双精度浮点数作为输入，另一个以整数和换算因子作为输入，还有一个以小数的 String 表示作为输入。要小心使用 BigDecimal(double) 构造函数，因为如果不了解它，会在计算过程中产生舍入误差。请使用基于整数或 String 的构造函数。
- * @author lzl
+ * @author lzl====
  *
  */
 public class BigDecimalUtil {
