@@ -1,0 +1,8 @@
+package com.test;
+
+import java.io.Serializable;
+
+public class Testb implements Serializable{
+	public String t;
+
+}
